@@ -82,8 +82,6 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
-    - name: 增加turboacc
-      run: cd openwrt && curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh --no-sfe
 
     - name: 更新 feeds
       run: cd openwrt && ./scripts/feeds update -a
