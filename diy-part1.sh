@@ -30,12 +30,12 @@ safe_add_feed() {
 # 安全地添加 feed 源
 safe_add_feed modem "https://github.com/FUjr/modem_feeds.git;main"
 safe_add_feed turboacc "https://github.com/chenmozhijin/turboacc"
-safe_add_feed lienol "https://github.com/Lienol/openwrt-package"
+# safe_add_feed lienol "https://github.com/Lienol/openwrt-package"
 
 # 其他可选的 feed 源（已注释掉）
 # safe_add_feed helloworld "https://github.com/fw876/helloworld"
 # safe_add_feed passwall "https://github.com/xiaorouji/openwrt-passwall"
-  safe_add_feed kiddin9 "https://github.com/kiddin9/openwrt-packages"
+  safe_add_feed kiddin9 "https://github.com/kiddin9/kwrt-packages"
 # safe_add_feed kenzok8 "https://github.com/kenzok8/openwrt-packages"
 # safe_add_feed innmonkey "https://github.com/innmonkey/openwrt-packages"
  safe_add_feed istore "https://github.com/linkease/istore;main"
